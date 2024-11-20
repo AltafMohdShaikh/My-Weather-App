@@ -9,3 +9,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* body{
+  background: rgb(25,0,36);
+  background: linear-gradient(180deg, rgba(25,0,36,1) 0%, rgba(48,9,121,1) 35%, rgba(0,117,255,1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* Add this CSS class for the glass effect *
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white *
+  backdrop-filter: blur(10px); /* Apply blur for frosted glass effect *
+  -webkit-backdrop-filter: blur(10px); /* Safari support *
+  border-radius: 8px; /* Round corners *
+  padding: 1rem; /* Add some padding *
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border *
+}
+ */

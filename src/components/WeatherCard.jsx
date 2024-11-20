@@ -4,7 +4,7 @@ const WeatherCard = ({ weatherData }) => {
   if (!weatherData) return null; // Render nothing if there's no data
 
   const { main, wind, name, weather } = weatherData;
-  const temperature = main?.temp;
+  const temperature = main?.temp ? Math.round(main.temp) : null;
   const humidity = main?.humidity;
   const windSpeed = wind?.speed;
   const iconCode = weather[0]?.icon; // Access the icon code

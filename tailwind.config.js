@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'Bungee': ['Bungee']
+    },
+    extend: {
+      boxShadow: {
+        'solid': '10px 10px 0 0 rgb(0 0 0)',
+       'down': '0 10px 0 0 rgb(0 0 0)',
+
+      }
+    },
   },
   plugins: [],
 }
